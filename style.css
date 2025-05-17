@@ -302,6 +302,7 @@ body {
   text-align: center;
   font-size: 50px;
   font: bolder;
+  cursor: pointer;
 }
 
 .questions {
@@ -309,7 +310,7 @@ body {
 }
 
 .box {
-  margin-left: 17%;
+  justify-items: center;
   cursor: pointer;
   margin-top: 10px;
   text-align: center;
