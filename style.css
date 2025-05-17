@@ -46,7 +46,7 @@ body {
 }
 
 .select select {
-  margin-left: 675%;
+  margin-left: 500%;
   margin-top: 30%;
   width: 150px;
   height: 33px;
@@ -69,8 +69,8 @@ body {
   height: 25px;
   background-color: red;
   color: #fff;
-  margin-left: 60%;
-  margin-top: 2.3%;
+  margin-left: 54%;
+  margin-top: 3%;
   border-radius: 7px;
   border: none;
   border: 1px solid #fff;
