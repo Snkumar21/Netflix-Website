@@ -52,10 +52,10 @@ body {
   height: 33px;
   background-color: transparent;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   border: 1px solid white;
-  border-radius: 7px;
+  border-radius: 15px;
   cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ body {
   color: #fff;
   margin-left: 54%;
   margin-top: 3%;
-  border-radius: 7px;
+  border-radius: 15px;
   border: none;
   border: 1px solid #fff;
   text-decoration: none;
@@ -392,6 +392,7 @@ body {
   margin-top: 10px;
   color: #fff;
   padding-bottom: 75px;
+  text-align: center;
 }
 
 .footer p {
@@ -427,7 +428,6 @@ body {
 
 .footer .select {
   margin-top: 20px;
-  margin-left: 46%;
   width: 150px;
   height: 33px;
   background-color: transparent;
@@ -435,7 +435,7 @@ body {
   font-size: 20px;
   border: none;
   border: 1px solid #ffffffbd;
-  border-radius: 4px;
+  border-radius: 15px;
 }
 
 .footer .select option {
