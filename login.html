@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Login | Netflix</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.6)), url('./Img/Bg.png') no-repeat center center fixed;
+                background-size: cover;
+                color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+
+            .login-container {
+                max-width: 400px;
+                margin: 100px auto;
+                padding: 40px;
+                background-color: rgba(0, 0, 0, 0.7);
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            }
+
+            .login-container h2 {
+                text-align: center;
+                font-size: 36px;
+                margin-bottom: 30px;
+                font-family: Bahnschrift;
+            }
+
+            .login-container input {
+                width: 100%;
+                height: 50px;
+                margin-bottom: 20px;
+                padding-left: 10px;
+                font-size: 20px;
+                color: #fff;
+                background-color: rgba(255, 255, 255, 0.1);
+                border: 1px solid #ccc;
+                border-radius: 8px;
+            }
+
+            .login-container input::placeholder {
+                color: #ccc;
+            }
+
+            .login-container .login-btn {
+                width: 100%;
+                height: 50px;
+                background-color: red;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+            .login-container .login-btn:hover {
+                background-color: darkred;
+            }
+
+            .login-container p {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+            .login-container p a {
+                color: #00bcd4;
+                text-decoration: none;
+            }
+
+            .login-container p a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-container">
+                <h2>Login to Netflix</h2>
+                <form>
+                    <input type="email" placeholder="Email" required />
+                    <input type="password" placeholder="Password" required />
+                    <button type="submit" class="login-btn">Sign In</button>
+                </form>
+                <p>New to Netflix? <a href="#">Sign Up Now</a></p>
+            </div>
+        </div>
+    </body>
+</html>
